@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTeknikServisModelStoreContainer" CdmEntityContainer="DBTeknikServisEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLADMIN">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLADMIN">
+        <MappingFragment StoreEntitySet="TBLADMIN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KULLANICIAD" ColumnName="KULLANICIAD" />
+          <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLCARI">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLCARI">
+        <MappingFragment StoreEntitySet="TBLCARI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="IL" ColumnName="IL" />
+          <ScalarProperty Name="ILCE" ColumnName="ILCE" />
+          <ScalarProperty Name="BANKA" ColumnName="BANKA" />
+          <ScalarProperty Name="VERGIDAİRESİ" ColumnName="VERGIDAİRESİ" />
+          <ScalarProperty Name="VERGINO" ColumnName="VERGINO" />
+          <ScalarProperty Name="STATU" ColumnName="STATU" />
+          <ScalarProperty Name="ADRES" ColumnName="ADRES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLDEPARTMAN">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLDEPARTMAN">
+        <MappingFragment StoreEntitySet="TBLDEPARTMAN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLFATURABILGI">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLFATURABILGI">
+        <MappingFragment StoreEntitySet="TBLFATURABILGI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SERI" ColumnName="SERI" />
+          <ScalarProperty Name="SIRANO" ColumnName="SIRANO" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="SAAT" ColumnName="SAAT" />
+          <ScalarProperty Name="VERGIDAIRE" ColumnName="VERGIDAIRE" />
+          <ScalarProperty Name="CARI" ColumnName="CARI" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLFATURADETAY">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLFATURADETAY">
+        <MappingFragment StoreEntitySet="TBLFATURADETAY">
+          <ScalarProperty Name="FATURADETAYID" ColumnName="FATURADETAYID" />
+          <ScalarProperty Name="URUN" ColumnName="URUN" />
+          <ScalarProperty Name="ADET" ColumnName="ADET" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+          <ScalarProperty Name="TUTAR" ColumnName="TUTAR" />
+          <ScalarProperty Name="FATURAID" ColumnName="FATURAID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLKATEGORİ">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLKATEGORİ">
+        <MappingFragment StoreEntitySet="TBLKATEGORİ">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLNOTLARIM">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLNOTLARIM">
+        <MappingFragment StoreEntitySet="TBLNOTLARIM">
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="ICERIK" ColumnName="ICERIK" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLPERSONEL">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLPERSONEL">
+        <MappingFragment StoreEntitySet="TBLPERSONEL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="DEPARTMAN" ColumnName="DEPARTMAN" />
+          <ScalarProperty Name="MAİL" ColumnName="MAİL" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUN">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLURUN">
+        <MappingFragment StoreEntitySet="TBLURUN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="ALISFİYAT" ColumnName="ALISFİYAT" />
+          <ScalarProperty Name="SATIŞFİYAT" ColumnName="SATIŞFİYAT" />
+          <ScalarProperty Name="STOK" ColumnName="STOK" />
+          <ScalarProperty Name="KATEGORİ" ColumnName="KATEGORİ" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNHAREKET">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLURUNHAREKET">
+        <MappingFragment StoreEntitySet="TBLURUNHAREKET">
+          <ScalarProperty Name="URUNSERINO" ColumnName="URUNSERINO" />
+          <ScalarProperty Name="HAREKETID" ColumnName="HAREKETID" />
+          <ScalarProperty Name="URUN" ColumnName="URUN" />
+          <ScalarProperty Name="MUSTERI" ColumnName="MUSTERI" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="ADET" ColumnName="ADET" />
+          <ScalarProperty Name="FIYAT" ColumnName="FIYAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNKABUL">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLURUNKABUL">
+        <MappingFragment StoreEntitySet="TBLURUNKABUL">
+          <ScalarProperty Name="URUNDURUMDETAY" ColumnName="URUNDURUMDETAY" />
+          <ScalarProperty Name="URUNDURUM" ColumnName="URUNDURUM" />
+          <ScalarProperty Name="URUNSERINO" ColumnName="URUNSERINO" />
+          <ScalarProperty Name="ISLEMID" ColumnName="ISLEMID" />
+          <ScalarProperty Name="CARI" ColumnName="CARI" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+          <ScalarProperty Name="GELISTARIH" ColumnName="GELISTARIH" />
+          <ScalarProperty Name="CIKISTARIHI" ColumnName="CIKISTARIHI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNTAKIP">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLURUNTAKIP">
+        <MappingFragment StoreEntitySet="TBLURUNTAKIP">
+          <ScalarProperty Name="SERINO" ColumnName="SERINO" />
+          <ScalarProperty Name="AÇIKLAMA" ColumnName="AÇIKLAMA" />
+          <ScalarProperty Name="TAKIPID" ColumnName="TAKIPID" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLARACLAR">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLARACLAR">
+        <MappingFragment StoreEntitySet="TBLARACLAR">
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHAKKIMIZDA">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLHAKKIMIZDA">
+        <MappingFragment StoreEntitySet="TBLHAKKIMIZDA">
+          <ScalarProperty Name="HAKKIMIZDA" ColumnName="HAKKIMIZDA" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLİLETİŞİM">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLİLETİŞİM">
+        <MappingFragment StoreEntitySet="TBLİLETİŞİM">
+          <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="ADSOYAD" ColumnName="ADSOYAD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="urunkategori" FunctionName="DBTeknikServisModel.Store.urunkategori">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBTeknikServisModel.urunkategori_Result">
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ADET" ColumnName="ADET" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="MAXKATEGORİURUN" FunctionName="DBTeknikServisModel.Store.MAXKATEGORİURUN" />
+    <FunctionImportMapping FunctionImportName="maksürünmarka" FunctionName="DBTeknikServisModel.Store.maksürünmarka" />
+    <EntitySetMapping Name="TBLILÇELER">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLILÇELER">
+        <MappingFragment StoreEntitySet="TBLILÇELER">
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLILLER">
+      <EntityTypeMapping TypeName="DBTeknikServisModel.TBLILLER">
+        <MappingFragment StoreEntitySet="TBLILLER">
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="makscariil" FunctionName="DBTeknikServisModel.Store.makscariil" />
+  </EntityContainerMapping>
+</Mapping>

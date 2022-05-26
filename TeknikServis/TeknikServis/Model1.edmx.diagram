@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a7dd5cf54d64013aac894b3ca097cbb" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="DBTeknikServisModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLADMIN" Width="1.5" PointX="9.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLCARI" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLDEPARTMAN" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLFATURABILGI" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLFATURADETAY" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLKATEGORİ" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLNOTLARIM" Width="1.5" PointX="11.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLPERSONEL" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLURUN" Width="1.75" PointX="2.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLURUNHAREKET" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLURUNKABUL" Width="1.5" PointX="8.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLURUNTAKIP" Width="1.5" PointX="5.75" PointY="13.5" IsExpanded="true" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLFATURABILGI_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUNHAREKET_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUNKABUL_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLPERSONEL_TBLDEPARTMAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLFATURABILGI_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLFATURADETAY_TBLFATURABILGI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUN_TBLKATEGORİ" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUNHAREKET_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUNKABUL_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLURUNHAREKET_TBLURUN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLARACLAR" Width="1.5" PointX="11.375" PointY="6.875" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLHAKKIMIZDA" Width="1.5" PointX="10.625" PointY="8.75" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLİLETİŞİM" Width="1.5" PointX="11.375" PointY="4.75" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLILÇELER" Width="1.5" PointX="8.625" PointY="14" />
+        <EntityTypeShape EntityType="DBTeknikServisModel.TBLILLER" Width="1.5" PointX="10.75" PointY="14" />
+        <AssociationConnector Association="DBTeknikServisModel.FK_TBLILÇELER_TBLILLER" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
